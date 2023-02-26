@@ -1,0 +1,273 @@
+body{
+    
+}
+
+#title{
+    background-color: #ff4c68;
+}
+@media (max-width: 1100px)
+{
+    #title{
+        text-align: center;
+    }
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+/* .navbar-brand{
+    padding-right: 40%;
+} */
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+#navbar-padding{
+    margin-bottom: 40px;
+    padding-top: 15px;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 33%;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+  
+    
+    
+    
+}
+h2 {
+    font-family: 'Hind', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+h3{
+    font-family: 'Hind', sans-serif;
+    font-weight: 200;
+}
+p{
+    color: #8f8f8f;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0px 20px;
+}
+.nav-link{
+    color: #fff;
+   
+    font-size: 18px;
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.phone-image{
+    width: 20%;
+    /* top: 250px; */
+    
+    transform: rotate(25deg);
+    position: absolute;
+    top: 200px;
+    
+}
+@media (max-width: 1100px){
+    .phone-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+.title-row{
+    padding-top: 40px;
+    
+}
+
+/* feature section */
+#features{
+    
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+.features-box {
+    text-align: center;
+    padding: 5%;
+}   
+.fa-solid {
+    padding-bottom: 10px;
+    color: #ef8172;
+}
+.fa-solid:hover {
+    color: rgb(23, 204, 23);
+}
+/* testimonials section */
+#testimonials{
+   
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+   
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonials-img {
+    border-radius: 100%;
+    width: 100px;
+    margin: 20px;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+    padding: 0% 15%;
+    padding-bottom: 4%;
+    
+    
+}
+.press-logo {
+     width: 80%;
+     padding-left: 5px;
+     padding-right: 5px;
+}
+/* pricing section */
+#pricing{
+    padding: 50px;
+    padding-bottom: 0px;
+}
+.pricing-table{
+    padding: 3% 2%;
+}
+/* hover search bar */
+
+body,html{
+    /* height: 100%; */
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    /* background: #e74c3c !important; */
+    }
+    #unique_search-bar{
+        width: 20px;
+        padding-left: 20%;
+    }
+    .search-bar-container{
+        width: 30px;
+    }
+    @media (max-width: 1100px)
+    {
+        #unique_search-bar{
+            padding-left: 45%;
+        }
+    }
+
+    .searchbar{
+    /* margin-bottom: auto;
+    margin-top: auto; */
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 300px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+    /* cta */
+#cta{
+    background-color: #ef8172;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20%;
+    color: #fff;
+    
+}
+#cta_text{
+    font-size: 45px;
+    line-height: 1.5;
+}
+@media (max-width: 1100px){
+    #cta_text{
+        font-size: 25px;
+    }
+}
+
+/* footer */
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #F5EAEA;
+
+}
+.fa-brands:hover{
+    color: rgb(23, 204, 23);
+}
+#footer-font{
+    padding: 8px;
+}
+
+/* media queary; working for mobile device */
+
+@media (max-width: 1100px) {
+    .pricing-text{
+        font-size: 25px;
+        width: 100%;
+    }
+}
+@media (max-width: 1100px) {
+    .testimonials-text{
+        font-size: 25px;
+        width: 100%;
+    }
+}
+@media (max-width: 1100px) {
+    #press{
+        padding: 0 30%;
+    }
+}
+
